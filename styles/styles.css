@@ -1,0 +1,47 @@
+body {
+	background: lightblue;
+}
+
+
+header {
+	height: 80px;
+	width: 100%;
+	background: rgb(12, 6, 105);
+	color: lightblue;
+}
+
+header h1 {
+	margin: 0px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+nav {
+	height: 40px;
+	width: 100%;
+	background: rgb(174, 181, 231);
+	text-align: center;
+	border-top: 2px dotted lightblue;
+	border-bottom: 2px dotted lightblue;
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	width: 100px;
+	background: rgb(230, 89, 89);
+	color: lightblue;
+	margin: 05px 02px;
+	padding: 05px 10px;
+}
+
+.contents {
+	padding-top: 10px;
+	background: rgb(182, 204, 224);
+	width: 100%;
+	min-height: 500px;
+}
+
+.contents table {
+	margin: auto;
+}
